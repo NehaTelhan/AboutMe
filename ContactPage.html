@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Contact Me</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- NAVBAR
+    ================================================== -->
+    </head>
+      <body>
+        <div class="navbar-wrapper">
+          <div class="container">
+
+            <nav class="navbar navbar-inverse navbar-static-top">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="file:///Users/guest1/Downloads/bootstrap-3.3.6/docs/examples/carousel/MainPage.html"> Neha Telhan's Website</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="file:///Users/guest1/Downloads/bootstrap-3.3.6/docs/examples/carousel/MainPage.html">Home</a></li>
+                    <li><a href="file:///Users/guest1/Downloads/bootstrap-3.3.6/docs/examples/blog/AboutPage.html">About</a></li>
+                    <li><a href="file:///Users/guest1/Downloads/bootstrap-3.3.6/docs/examples/sticky-footer-navbar/ContactPage.html">Contact</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Request Resume</a></li>
+                        <li><a href="file:///Users/guest1/Downloads/bootstrap-3.3.6/docs/examples/cover/EducationPage.html">Education</a></li>
+                        <li><a href="https://www.linkedin.com/in/neha-telhan-39b680b0?trk=nav_responsive_tab_profile_pic">Linked In</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">See an error somewhere on this website?</li>
+                        <li><a href="file:///Users/guest1/Downloads/bootstrap-3.3.6/docs/examples/sticky-footer-navbar/SubmitProblem.html">Notify me in simple text</a></li>
+                        <li><a href="#">Submit your own code as a fix</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>Contact Me</h1>
+      </div>
+      <p class="lead">The best way to contact me is through electronic mail. Please give me 48 hours to respond. Thank You!</p>
+            <h3> Email: <IMG SRC="email_button.png" ALT="Rotunda" WIDTH=40 HEIGHT=40> </h3>
+              <h5> <strong> my first name + my last name (one word) @ gmail DOT com </strong> </h5>
+            <h4> Please remember to include the reason you're getting in touch in the subject title and information for me to contact you in the body of the message. </h4>
+
+<!-- Knockout-ify the email process-->
+<br />
+<!-- p><strong>Body:</strong> <input data-bind="value: bodyText"/> <textarea>Write your message here </textarea></p> -->
+
+<form action="mailto:nehatelhan@gmail.com?Subject=Website_Submission">
+<p>
+<i>Please select the reason for your contact.</i>
+</p>
+<select name="reason">
+<option value="reason2">I have an employment opportunity I think you'd be interested in.</option>
+<option value="reason2">There is a bug I'd like to make known.</option>
+<option value="reason3">Other Reason (please be detailed in your message).</option>
+</select>
+<br /><br />
+<p><strong>Subject Of Your Message:</strong> <input data-bind="value: subjectTitle"/></p>
+<p>
+<i>Please enter the text of your message in the field that follows.</i>
+</p>
+<textarea
+  name="body"
+  rows="10"
+  cols="60">
+</textarea>
+<p><strong>Your Full Name & E-mail Address</strong> <input data-bind="value: sender"/></p
+<br /><br />
+<p> Message Preview: <strong data-bind="text: fullMessage"></strong></p>
+<br />
+<p>
+<input type="submit" name="send" value="Send" href="file:///Users/guest1/Downloads/bootstrap-3.3.6/docs/examples/sticky-footer/SubmissionPage.html"/>
+</p>
+</form>
+
+<br /> <br /> <br /> <br />
+
+<title>Send Us Email</title>
+</head>
+<body>
+<form action="takeform.php" method="POST">
+<p>
+<input
+name="email"
+size="64"
+maxlength="64"/>
+<b>Your</b> Email Address
+</p>
+<p>
+<input
+name="realname"
+size="64"
+maxlength="64"/>
+Your Real Name (<i>so our reply won't get stuck in your spam folder</i>)
+</p>
+<p>
+<input
+name="subject"
+size="64"
+maxlength="64"/>
+Subject Of Your Message
+</p>
+<p>
+<i>Please enter the text of your message in the field that follows.</i>
+</p>
+<textarea
+name="body"
+rows="10"
+cols="60">
+</textarea>
+<p>
+<input type="submit" name="send" value="Send Your Message"/>
+</p>
+</form>
+
+
+
+
+          <!--  <table>
+                <thead><tr>
+                    <th>Subject title</th>
+                </tr></thead>
+            <textarea name="myTextBox" cols="50" rows="5">
+Type here please...
+            </textarea>
+          <br />
+          <input type="submit"/>
+        </form>
+      </table>
+<!-- -->
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Telhan, Inc.</p>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
