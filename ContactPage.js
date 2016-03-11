@@ -7,8 +7,8 @@ var self = this;
   this.sender = ko.observable("Your name here");
 
   this.fullMessage = ko.computed(function() {
-    return "Subject: " + this.subjectTitle() + "Message: " + this.bodyText() + "From: " + this.sender();
-  }. this);
+    return "Subject: " + this.subjectTitle() + " " + "From: " + this.sender();
+  }. this);.
 }
 
 //Activates knockout.js
